@@ -10,7 +10,8 @@ export const SitusTosora: React.FC = () => {
 		}, 1000);
 
 		const timer = setTimeout(() => {
-			window.location.href = "https://mui.com/material-ui/react-modal";
+			window.location.href =
+				"https://tosora-culture-guide.vercel.app/explore/sites";
 		}, time * 1000);
 
 		return () => {
